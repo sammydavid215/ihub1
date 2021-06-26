@@ -69,5 +69,35 @@ console.log(subt);
 //var declear
 var b= 6;
 b++;
-console.log(b)
+console.log(b);
 // colour
+
+const arr = [
+  //  {//firstname = "oge", Lastname = "ken", Age = 20},
+  //  {//firstname = "me", Lastname = "you", Age = 11}
+]
+console.log(arr);
+
+function fullName()
+
+{document.getElementById("name1").innerHTML = arr[0] + ' ' + arr[0].Lastname;
+document.getElementById("name2").innerHTML = arr[1] + ' ' + arr[1] .Lastname;
+document.getElementById("Age").innerHTML = arr[0].Age +  arr[1].Age;}
+
+let arr2 = ['name one', 'name two']
+console.log(arr2.sort())
+console.log(arr2.length)
+console.log(arr2.toString())
+console.log(arr2.pop())
+arr2.unshift('name2')
+console.log(arr2)
+arr2.shift()
+console.log(arr2)
+
+function grades(){
+
+    let scores = document.getElementById('scores').Value;
+
+    if(scores >= 50){document.getElementById('Pass').innerHTML = 'you pass';
+}else{ document.getElementById('Fail').innerHTML = 'you Fail';}
+}
