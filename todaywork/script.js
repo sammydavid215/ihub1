@@ -101,3 +101,6 @@ function grades(){
     if(scores >= 50){document.getElementById('Pass').innerHTML = 'you pass';
 }else{ document.getElementById('Fail').innerHTML = 'you Fail';}
 }
+
+let counN = 55;
+console.log('ijeoma is ' + counN)
