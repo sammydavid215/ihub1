@@ -18,9 +18,9 @@ function resetCount(){
   document.getElementById('number').value = value;}
   var color = ["red", "green"]
   if ("value" > 3){
-    color = "red";  }
+    value.style.color = "red";  }
     else if ("value" < 1){
-      color = "green";
+      value.style.color = "green";
     }
   
 
