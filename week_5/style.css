@@ -1,0 +1,151 @@
+.main{
+    background-color: rgb(151, 136, 236);
+    font-size: 15PX;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50PX;
+    padding: 100PX;
+    text-align: center;
+    text-justify: center;
+    
+}
+.last{background-color: rgb(24, 66, 52);
+    font-size: 15PX;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50PX;
+    padding: 100PX;
+    text-align: center;
+    text-justify: center;
+    
+
+}
+.main_2{
+    background-color: gray;
+    font-size: 15PX;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50PX;
+    padding: 100PX;
+    text-align: center;
+    text-justify: center;
+}
+.flex_main_1{
+    display: flex;
+    flex-direction: row;
+}
+.meter{
+    width: 8.95cm;
+    height: 0.65cm;
+    text-align: center;
+    text-align: left;
+}
+.meter_1{
+    width: 8.95cm;
+    height: 0.65cm;
+    text-align: center;
+}
+.meter_2{
+    width: 8.95cm;
+    height: 0.65cm;
+    text-align: center;
+}
+.meter_3{
+    width: 8.95cm;
+    height: 0.65cm;
+}
+.amount-first{width: 8.95cm;
+    height: 0.65cm;
+    text-align: center;}
+.btn{
+    width: 4.95cm;
+    height: 0.75cm;
+    text-align: center;
+    border-radius: 1px;
+}
+.result{ width: 8.95cm;
+    height: 0.65cm;
+    text-align: center;
+}
+.value{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center;}
+.fname{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center;}
+.lname{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center
+    
+}
+.email{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center}
+.uname{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center}
+.pname{width: 5.95cm;
+    height: 0.45cm;
+    text-align: center}
+.repname{width: 5.95cm;
+height: 0.45cm;
+text-align: center}
+.flex_grid{
+display: flex;
+flex-direction: row;
+background-color: aquamarine;
+font-size: 16px;
+font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+}
+.regfrom{
+background-color: cadetblue;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.reg{
+background-color: chartreuse;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+} 
+.registration{
+background-color: darkcyan;
+}
+h1 {
+margin-left: 70px;
+text-align: center;
+font-style: bold;
+ }
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+form ul li label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 100px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.form textarea {
+float: left;
+width: 350px;
+height: 150px;
+}
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}                  
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+form ul li input, select {
+float: left;
+margin-bottom: 10px;
+}
+body{
+    background-color: cadetblue;
+}

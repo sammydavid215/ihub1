@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS converter</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="flex_grid">
+    <section>
+        <p>
+            <label>Enter Value to convert</label>
+            <input id="inputMeter" type="number" placeholder="Meter"
+            oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+          </p>
+         <b> <p>Meter: <span id="outputMeters"></span></p>
+          <p>Feet: <span id="outputFeet"></span></p>
+          <p>Inches: <span id="outputInches"></span></p>
+          <p>Centimeter: <span id="outputcm"></span></p>
+          <p>Yards: <span id="outputYards"></span></p></b>
+    </section>
+    <section>
+        <p>
+            <label>Enter Value to convert</label>
+            <input id="inputFeet" type="number" placeholder="Inches"
+            oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+          </p>
+        
+    </section>
+    <section>
+        <p>
+            <label>Enter Value to convert</label>
+            <input id="inputFeet" type="number" placeholder="Feet"
+            oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+          </p>
+         
+    </section>
+    <section>
+        <p>
+            <label>Enter Value to convert</label>
+            <input id="inputFeet" type="number" placeholder="Yard"
+            oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
+          </p>
+
+    </section>
+</section>
+<section class="reg">
+    <div class="main-grid">
+    <form>
+    <h1>Registration Form</h1>
+    Use tab keys to move from one input field to the next.
+    <div class="registration"><form name='registration' onSubmit="return formValidation();">
+    <ul>
+    <b><li><label for="userid">User Name:</label></li>
+    <li><input type="text" name="userid" size="12" min="6" max="12"/></li>
+    <li><label for="passid">Password:</label></li>
+    <li><input type="password" name="passid_1" size="12" /></li>
+    <li><label for="passid">Re-type Password:</label></li>
+    <li><input type="password" name="passid" size="12" /></li>
+    <li><label for="username">First Name:</label></li>
+    <li><input type="text" name="username" size="50" /></li>
+    <li><label for="address">Last Name:</label></li>
+    <li><input type="text" name="address" size="50" /></li>
+    <li><label for="zip">Address:</label></li>
+    <li><input type="text" name="zip" /></li>
+    <li><label for="email">Email:</label></li>
+    <li><input type="text" name="email" size="50" /></li>
+    <li><input type="submit" name="submit" value="Submit" /></li></b>
+    </ul>
+    </form></div></div>
+</section>
+<script src="./script.js"></script>
+    </body>
+    </html>

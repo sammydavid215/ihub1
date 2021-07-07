@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App conversion</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="flex_main">
+    <section class="main">   
+        <div>
+        <label for="number">Enter Value to be converted:</label><br><br>
+        <input type="number" class="meter" name="meter" id="meter"><br><br>
+        <label for="number">Meters:  </label><br><br>
+        </div>
+        <div>
+           <input type="number" class="meter_1" name="meter" id="meter_1"><br><br>
+           <label for="number">Inches:  </label><br><br>
+        </div>
+        <div> 
+            <input type="number" class="meter_2"name="meter" id="meter_2"><br><br>
+            <label for="number">    Feet:   </label><br><br>
+        </div>
+        <div>
+            <input type="number" class="meter_3" name="meter" id="meter_3"><br><br>
+            <label for="number">    Yard:   </label><br><br>
+        </div><br>
+    </section>
+    <section class="last">
+        <body>
+            <div class="wrapper">
+                <h1> Application for Convertion</h1>
+                <p>Enter value to be converted</p>
+                <div class="app-body">
+                    <div class="section-left">
+                      <b> <input type="number" id="number" class="amount-first" value="1" ><br><br></b> 
+                        
+                        <select class="value" id="currency-first">
+                            <option value="Meter" selected>Meter</option>
+                            <option value="Centi Meter">Centi Meter</option>
+                            <option value="Inches">Inches</option>
+                            <option value="Feet">Feet</option>
+                            <option value="Yard">Yard</option>
+                        </select>
+                    </div><br>
+                    <button class="btn" onclick="convert()" id="btn1">Calculate</button><br><br>
+                <div>
+                    <input type="text" class="result" id="result">
+                </div>
+                    
+        
+                <p class="rate-info"></p>
+            </div>
+    </section>
+    <section class="main_2">
+        <form action="login">
+            <div>
+                <input type="text" class="fname" min="8" max="12"><br>
+                <label for="">First Name</label>
+            </div>
+            <div>
+                <input type="text" class="lname" minlength="8"  maxlength="12" ><br>
+                <label for="">Last Name</label>
+            </div>
+            <div>
+                <input type="text" class="email" ><br>
+                <label for="E-mail Address">Enter Value</label>
+            </div>
+            <div>
+                <input type="text" class="uname"><br>
+                <label for="">User Name</label>
+            </div>
+            <div>
+                <input type="text" class="pname"><br>
+                <label for="">Pass Word</label>
+            </div>
+            <div>
+                <input type="text" class="repname"><br>
+                <label for="">Re-enter Password</label>
+            </div>
+            <button class="button" onclick="submit()" id="button">Submit</button><button class="button" id="button">Cancel</button>
+        </form>
+    </section>
+</section>
+</body>
+</html>
