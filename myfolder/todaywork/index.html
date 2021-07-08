@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <P>Home page for all</P>
+    <p id="p1"></p>
+    <script>
+        document.getElementById("p1").innerHTML = "ma name is you";
+    </script>
+    <p id="p2">My home address is ogechukwu</p>
+    <script>
+        document.getElementById("p2").style.color = "blue";
+    </script>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").innerHTML = "paragraph change"
+        }
+    </script>
+    <p id="demo"></p>
+    <button onclick="myFunction()">CLick</button>
+    <p id="name"></p>
+    <p id="number"></p>
+    <p id="boolean"></p>
+    <p id="null"></p>
+    <p id="undefined"></p>
+    <script>
+        let num1 = 55
+        let num2 = 33
+        function add()
+        { let sum = num1 + num2
+            document.write(sum)} add()
+            //let body = document.getElementsByTagName("body")
+        </script> <br>   
+<script>
+        function div()
+        { let output = num1 / num2
+            //console.log(output)
+            document.write(output)
+        } div()
+    </script><br>
+    // 1. create an array of 2 object containing firstname, lastname and age prp
+    // 2. create a function to concatenate the firstname and lastname together and get the sum of the age prp in the both object
+<script>
+    let name = [ "firstname" , "lastname"];
+    name[0];
+    name[1];
+</script>
+<h1>name details</h1>
+<p id="name1"></p>
+<p id="name2"></p>
+<p id="Age"></p>
+
+<input type="text" id="scores">
+<button onclick="grades()">CLick</button>
+<p id="Pass"></p>
+<p id="Fail"></p>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</body>
+</html>

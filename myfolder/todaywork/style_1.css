@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+    font-size: 15px;
+}
+.main{
+    background-color: aquamarine;
+    padding: 150px;
+    margin: 100px;
+    font-size: 15px;
+    text-justify: center;
+}
