@@ -1,0 +1,33 @@
+.more{
+    height: 12mm;
+    width: 60mm;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: solid black;
+    border-radius: 100px;
+    background-color: rgb(4, 62, 65);
+    color: white;
+    cursor: pointer;
+   
+}
+.user, .password{
+    height: 8mm;
+    width: 80mm;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.submit{
+    height: 8mm;
+    width: 3cm;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
+.exit{
+    height: 8mm;
+    width: 3cm;
+    border-radius: 50px;
+    align-items: center;
+    cursor: pointer;
+}
